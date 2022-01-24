@@ -2,7 +2,7 @@ from pydantic import BaseSettings
 
 class Settings(BaseSettings):
     database_url: str
-    database_port: str
+    database_port: int
     database_password: str
     database_name: str
     database_username: str
