@@ -14,7 +14,8 @@ class PostBase(BaseModel):
     
 
 class PostCreate(PostBase):
-    pass
+    owner_id: Optional[int] 
+    
 
 
 
